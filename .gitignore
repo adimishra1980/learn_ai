@@ -1,0 +1,55 @@
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+*.env
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Distribution & packaging
+build/
+dist/
+wheels/
+*.egg-info/
+*.egg
+
+# Testing, linting, type checking
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDEs & code editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+# Logs & SQLite databases
+*.log
+*.sqlite
+*.sqlite3
+*.db

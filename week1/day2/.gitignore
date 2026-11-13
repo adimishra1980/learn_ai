@@ -1,0 +1,33 @@
+# Environment variables and credentials
+.env
+.env.*
+*.env
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+
+# Distribution & packaging
+build/
+dist/
+wheels/
+*.egg-info/
+*.egg
+
+# Testing, linting, type checking
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDEs & editors
+.vscode/
+.idea/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
